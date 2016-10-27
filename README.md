@@ -9,6 +9,8 @@ Details of the experiments and model derivation can be found in Chapters 2 and 3
 Note that the optimization routine here was originally run on a High-Performance Computing cluster at NYU, and utilizes a cutting-edge stochastic optimization method known as [Covariance Matrix Adaptation](https://www.lri.fr/~hansen/cmaesintro.html).
 
 <!--To center an image-->
+<div>
 <p align="center">
 ![Model schematic](schematic_of_model.png)
 </p>
+</div>
