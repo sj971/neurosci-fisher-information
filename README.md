@@ -8,4 +8,4 @@ Details of the experiments and model derivation can be found in Chapters 2 and 3
 
 Note that the optimization routine here was originally run on a High-Performance Computing cluster at NYU, and utilizes a cutting-edge stochastic optimization method known as [Covariance Matrix Adaptation](https://www.lri.fr/~hansen/cmaesintro.html).
 
-![Model schematic](schematic_of_model.png)
+->![Model schematic](schematic_of_model.png)<-
