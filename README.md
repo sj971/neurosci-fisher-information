@@ -2,7 +2,7 @@
 Example Matlab code illustrating a neural computational model of human sensory discrimination behavior.
 
 ## About
-The repository contains Matlab functions for fitting human sensory discrimination thresholds i.e., the performance of a human observer at discriminating two different luminance contrasts or two different stimulus orientations. The model essentially combines an early **encoding** or **sensor** stage (i.e., neurons involved in visual processing in the brain) with a later **decoding** or **readout** stage (formally defined as the bound on estimation performance, in an information-theoretic sense). Details of the experiments and model derivation can be found in Chapters 2 and 3 of my [PhD thesis](https://sj971.github.io/docs/thesis_sjackson.pdf). 
+The repository contains Matlab functions for fitting low-level, sensory discrimination thresholds e.g., performance of a human observer at discriminating differences in stimulus contrast (c) or orientation (s). The model comsists of three stages: an early **encoding or sensor** stage (i.e., the response of neurons involved in visual processing in the brain), a **noise model** (e.g., Poisson), and a final **decoding or readout** stage (formally defined as the bound on estimation performance, in an information-theoretic sense). Details of the experiments and model derivation can be found in Chapters 2 and 3 of my [PhD thesis](https://sj971.github.io/docs/thesis_sjackson.pdf). 
 
 ![Model schematic](schematic_of_model.png)
 
