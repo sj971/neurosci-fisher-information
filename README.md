@@ -4,7 +4,7 @@ Example Matlab code illustrating a neural computational model of human sensory d
 ## About
 The repository contains Matlab functions for fitting low-level, sensory discrimination thresholds e.g., performance of a human observer at discriminating differences in stimulus contrast (c) or orientation (s). 
 
-The model consists of three stages: an early **encoding or sensor** stage (i.e., the response of neurons involved in visual processing in the brain), a **noise model** (e.g., Poisson-spiking in individual sensory neurons), and a final **decoding or readout** stage (formally defined as the bound, in an information-theoretic sense, on estimation performance).
+The model consists of three essential components: an early **encoding or sensor** stage (i.e., a population of neurons involved in visual processing in the brain), a **noise model** defining the response behavior of those neurons to input (e.g., Poisson-spiking in individual sensory neurons), and a final **decoding or readout** stage (formally defined as the bound, in an information-theoretic sense, on estimation performance).
 
 ![Model schematic](schematic_of_model.png)
 
