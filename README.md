@@ -2,7 +2,7 @@
 Example Matlab code illustrating a neural computational model of human sensory discrimination behavior.
 
 ## About
-The repository contains Matlab functions for modeling the brain processes underlying sensory decoding i.e., decoding the contrast (c) or orientation (s) of a briefly presented visual stimulus. Behavioral data from n = 7 observers (~2000 trials each) was collected and used for model validation.
+The repository contains Matlab functions for modeling the brain processes underlying basic sensory decoding i.e., decoding the contrast (c) or orientation (s) of a briefly presented visual stimulus. Behavioral data from n = 7 observers (~2000 trials each) was collected and used for model validation.
 
 The model consists of three core components: an early **encoding or sensor** stage (i.e., a population of neurons involved in processing visual input), a **noise model** defining the response statistics of these neurons (e.g., Poisson-spiking in individual sensory neurons), and a final **decoding or readout** stage (mathematically defined as the bound, in an information-theoretic sense, on estimation performance i.e., Fisher Information).
 
